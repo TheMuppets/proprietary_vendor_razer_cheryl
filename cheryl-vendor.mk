@@ -658,10 +658,10 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libantradio \
     CneApp \
-    PowerOffAlarm \
     TimeService \
     QtiTelephonyService \
     uceShimService \
+    PowerOffAlarm \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
