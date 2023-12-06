@@ -6,4 +6,20 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),cheryl)
 
+$(call add-radio-file-sha1-checked,radio/abl.img,5092c7ae8c98fbe72f4ed918fbd823a27230a549)
+$(call add-radio-file-sha1-checked,radio/bluetooth.img,75469f32da15df901bc13120babfe919c798872b)
+$(call add-radio-file-sha1-checked,radio/cmnlib.img,bbb2b7658f53ad0a87538d3747bfeeec134404ef)
+$(call add-radio-file-sha1-checked,radio/cmnlib64.img,d56ab1dfa7fcf1301de03b264377ab13cbd2c612)
+$(call add-radio-file-sha1-checked,radio/devcfg.img,047a9b398a8e0cb28a0669e61884c27384ebe023)
+$(call add-radio-file-sha1-checked,radio/dsp.img,86e2c1fb84285bb36b140fa216a815981298388a)
+$(call add-radio-file-sha1-checked,radio/hyp.img,cde42aa91fed005aaf7f14182a6a5736b4664e4e)
+$(call add-radio-file-sha1-checked,radio/keymaster.img,9fc0434d0fa7928fa8607e7de1abbd9d3d23b0f3)
+$(call add-radio-file-sha1-checked,radio/mdtp.img,41e15187c7cb4e8b756b2e08f811d0e1f40a41c6)
+$(call add-radio-file-sha1-checked,radio/mdtpsecapp.img,dd542f803d284b432d97c490b1c21860850c2020)
+$(call add-radio-file-sha1-checked,radio/modem.img,4418ae6c65e5414fa4dadc4c915821790f2f1f0f)
+$(call add-radio-file-sha1-checked,radio/nvdef.img,5a0e26c1930075f3231fd357984b1011a3551361)
+$(call add-radio-file-sha1-checked,radio/rpm.img,6cffb2054a71a7acae4f7fcb74d251507eb4107d)
+$(call add-radio-file-sha1-checked,radio/tz.img,005fde8b48084887a4228e47145c3003dbf814af)
+$(call add-radio-file-sha1-checked,radio/xbl.img,40047f031cc949df5ef89b0be4f9891fb84afcce)
+
 endif
